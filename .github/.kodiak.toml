@@ -16,8 +16,8 @@ prioritize_ready_to_merge = true
 require_automerge_label = true
 
 [merge.automerge_dependencies]
-#versions=["minor", "patch"]
-#usernames=["renovate","renovate[bot]","renovate%5Bbot%5D","dependabot"]
+versions=["minor", "patch"]
+usernames=["renovate","renovate[bot]","renovate%5Bbot%5D","dependabot"]
 
 [merge.message]
 title = "pull_request_title"
