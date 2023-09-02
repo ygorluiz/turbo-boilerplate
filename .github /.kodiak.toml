@@ -4,10 +4,10 @@
 version = 1
 
 [approve]
-#auto_approve_usernames = ["renovate"]
+#auto_approve_usernames = ["renovate","dependabot"]
 
 [merge]
-automerge_label = [" 🥳️ LGTM", "🥳️ LGTM","🥳️  LGTM","LGTM"]
+automerge_label = [" 🥳️ LGTM", "🥳️ LGTM","🥳️  LGTM","LGTM","ship it!"]
 blocking_labels = [" 🚧️ WIP", "🚧️ WIP","🚧️  WIP","WIP"]
 delete_branch_on_merge = true
 method = "squash"
@@ -17,7 +17,7 @@ require_automerge_label = true
 
 [merge.automerge_dependencies]
 #versions=["minor", "patch"]
-#usernames=["renovate","renovate[bot]","renovate%5Bbot%5D"]
+#usernames=["renovate","renovate[bot]","renovate%5Bbot%5D","dependabot"]
 
 [merge.message]
 title = "pull_request_title"
@@ -31,5 +31,5 @@ cut_body_and_text = true
 
 [update]
 always = true
-#ignored_usernames = ["renovate"]
+#ignored_usernames = ["renovate","dependabot"]
 autoupdate_label = "🔄️ Conflict"
