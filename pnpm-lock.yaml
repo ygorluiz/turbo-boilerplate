@@ -53,8 +53,8 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@next/eslint-plugin-next':
-        specifier: ^14.1.1
-        version: 14.1.1
+        specifier: ^14.1.2
+        version: 14.1.2
       '@types/node':
         specifier: ^20.11.24
         version: 20.11.24
@@ -84,8 +84,8 @@ importers:
         version: 18.2.0(react@18.2.0)
     devDependencies:
       '@next/eslint-plugin-next':
-        specifier: ^14.1.1
-        version: 14.1.1
+        specifier: ^14.1.2
+        version: 14.1.2
       '@types/node':
         specifier: ^20.11.24
         version: 20.11.24
@@ -431,17 +431,10 @@ packages:
     resolution: {integrity: sha512-7CnQyD5G8shHxQIIg3c7/pSeYFeMhsNbpU/bmvH7ZnDql7mNRgg8O2JZrhrc/soFnfBnKP4/xXNiiSIPn2w8gA==}
     dev: false
 
-  /@next/eslint-plugin-next@14.1.1:
-    resolution: {integrity: sha512-NP1WoGFnFLpqqCWgGFjnn/sTwUExdPyjeFKRdQP1X/bL/tjAQ/TXDmYqw6vzGaP5NaZ2u6xzg+N/0nd7fOPOGQ==}
-    dependencies:
-      glob: 10.3.10
-    dev: true
-
   /@next/eslint-plugin-next@14.1.2:
     resolution: {integrity: sha512-k9h9NfR1joJI48uwdQd/DuOV1mBgcjlmWaX45eAXCFGT96oc+/6SMjO3s7naVtTXqSKjFAgk2GDlW6Hv41ROXQ==}
     dependencies:
       glob: 10.3.10
-    dev: false
 
   /@next/swc-darwin-arm64@14.1.1:
     resolution: {integrity: sha512-yDjSFKQKTIjyT7cFv+DqQfW5jsD+tVxXTckSe1KIouKk75t1qZmj/mV3wzdmFb0XHVGtyRjDMulfVG8uCKemOQ==}
