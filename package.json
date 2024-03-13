@@ -17,7 +17,7 @@
   "packageManager": "pnpm@8.6.10",
   "name": "turbo-boilerplate",
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@ianvs/prettier-plugin-sort-imports": "^4.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "eslint-config-next": "^14.1.3",
     "eslint-config-prettier": "^9.1.0",
